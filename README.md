@@ -4,7 +4,7 @@ vosk-kalliope
 This project goal is to be able to integrete the offline Speech-to-text tool VOSK to the vocal assistant Kalliope.
 
 
-To use Vosk with kalliope, install VOSK, download the acoustic model corresponding to the language you want to use and then, clone vosk.py and _init_.py in ../python3.7/dist-packages/kalliope-0.6.1-py3.7.egg/kalliope/stt/vosk 
+To use Vosk with kalliope, install VOSK, download the acoustic model corresponding to the language you want to use and then, clone vosk.py and _init_.py in ../python3.7/dist-packages/kalliope-0.6.1-py3.7.egg/kalliope/stt/vosk and replace the Utils.py in ../kalliope-0.6.1-py3.7.egg/kalliope by the Utils.py of this git.
 And finally, go to settings.yml of Kalliope and set the stt to vosk.
 You may have to add 
   - vosk:
